@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+  justify-content: flex-start
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+
+.App-bar {
+  background-color: #032a68;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: #fefefe;
+  min-height: 5%;
+  max-width:100%;
+ }
+
+ .App-row{
+  display:flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: flex-start;
+
+ }
+
+ .App-Homepage{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content:center;
+  width:200%;
+ }
+
+ 
+ .App-col{
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .App-70{
+  flex-direction: row;
+   }
+ 
+.App-comp {
+  background-color: #032a68;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fefefe;
+  min-height: 5%;
+  padding-left: 10%;
+  padding-right: 2%;
+}
+
+
+.Space-between {
+ 
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ 
+
+
+}
+.App-Padding{
+
+  padding-left: 90%;
+
+}
+
+
+.App-Padding2{
+
+  padding-left: 5%;
+
+}
+
+
+.Reason-List {
+  background-color: #e3e3e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  max-width: 20%;
+  min-width:20%;
+  padding-top: 1%;
+}
+
+.Reason-List2 {
+  background-color: #e3e3e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+ 
+}
+
+.Reason-List3 {
+  background-color: #e3e3e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  max-width: 30%;
+  min-width: 30%;
+}
+
+
+.Reason-List4 {
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+
+  padding-top: 10%;
+}
+
+.List-border {
+  border-color:black;
+  border-width:1;
+}
+
+
+.CheckList {
+  background-color:  #e0ebeb;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Text {
+
+font-size: 10;
+
+
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
