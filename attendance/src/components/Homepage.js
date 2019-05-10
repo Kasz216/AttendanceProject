@@ -13,7 +13,8 @@ import IconButton from '@material-ui/core/IconButton';
 import '../App.css';
 import NewsCard from "../components/NewsCard";
 import NewsCard1 from "../components/NewsCard1";
-
+import Login2 from "../components/Login";
+import EntryScreen from "../components/OldLogin";
 
 
 const styles = theme => ({
@@ -69,8 +70,8 @@ class Homepage extends React.Component {
     return (
       <div className = "App-header" >
         <div className = "App-Homepage">
-          <NewsCard />
-          <NewsCard1 />
+          <EntryScreen />
+      
           </div>
       </div>
     );
